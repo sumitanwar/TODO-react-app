@@ -1,0 +1,134 @@
+body {
+  background-color: rgb(37, 43, 44);
+}
+.bg-pink {
+  background-color: pink;
+}
+.Form-container {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  border: 2px solid rgb(0, 239, 199);
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.Form-container h2 {
+  color: #0626f4;
+  text-align: center;
+  width: 300px;
+  margin: 5px;
+}
+.Form-container form {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 10px 0px 0px;
+  justify-content: center;
+  align-items: center;
+}
+.Form-container textarea {
+  padding: 8px 2px 0px 2px;
+  width: 400px;
+  height: 26px;
+  margin: auto 10px;
+  font-size: 15px;
+  border: 2px solid blue;
+  background-color: rgb(229, 241, 124);
+  border-radius: 5px;
+}
+.Form-container button {
+  color: #27aedb;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  width: 68px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 0px;
+  font-weight: bold;
+}
+.added-item-container {
+  display: flex;
+  flex-direction: row;
+  margin: 4px auto;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0px;
+  position: relative;
+  bottom: 35px;
+}
+.Added_item {
+  display: flex;
+  border: 2px solid #0626f4;
+  margin: 0px auto;
+  width: 400px;
+  height: 30px;
+  padding: 2px;
+  background-color: #0626f4;
+  color: white;
+  font-size: 20px;
+  align-items: center;
+  border-radius: 5px;
+}
+.fa-solid {
+  color: rgb(12, 150, 7);
+  font-size: 20px;
+}
+.fa-regular {
+  font-size: 20px;
+}
+.added-item-container button {
+  color: #27aedb;
+  align-items: center;
+  height: 38px;
+  border: 2px solid rgb(21, 0, 249);
+  border-radius: 5px;
+  margin: 0px 0px 0px 3px;
+  width: 35px;
+}
+button:hover {
+  background-color: lightsteelblue;
+  color: rgb(0, 4, 255);
+  font-weight: bold;
+  cursor: pointer;
+}
+button .fa-solid:hover {
+  background-color: lightsteelblue;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+.fa-solid:hover {
+  font-size: 30px;
+}
+.fa-regular:hover {
+  font-size: 30px;
+}
+.Edit-container-visible {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 38px;
+  right: 5px;
+  margin: auto;
+  border: none;
+  /* z-index: -1; */
+}
+.Edit-container-invisible {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 38px;
+  right: 5px;
+  margin: auto;
+  border: none;
+  z-index: -1;
+}
+#editArea {
+}
+#save {
+  height: 38px;
+}
